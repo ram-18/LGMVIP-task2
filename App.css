@@ -1,0 +1,57 @@
+#head {
+  border: 4px solid rgb(33, 180, 33);
+  box-sizing: border-box;
+  padding: 2%;
+  background-color: black;
+}
+#head-main{
+  box-sizing: border-box;
+  display: inline;
+  font-size: 35px;
+  border: 1px solid black;
+  color: white;
+  color: orange;
+}
+#getUsers{
+  box-sizing: border-box;
+  width: 20%;
+  height: 5%;
+  font-size: 20px;
+  padding: 1%;
+  background-color: brown;
+  color: white;
+  float: right;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+#getUsers:hover {
+  background-color: chartreuse;
+}
+#user-body {
+  box-sizing: border-box;
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: burlywood;
+}
+#user-card {
+  box-sizing: border-box;
+  /* border: 2px solid red; */
+  display: inline-block;
+  padding: 2%;
+  margin: 2%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(238, 185, 203);
+}
+#name {
+  font-weight: 700;
+  font-size: 20px;
+}
+#load-img {
+  width: 20%;
+  height: 50%;
+  border-radius: 50%;
+}
